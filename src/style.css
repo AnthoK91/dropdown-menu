@@ -1,0 +1,35 @@
+a {
+  pointer-events: none;
+}
+
+* {
+  font-family: "Satoshi", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  font-weight: 400;
+  color: #3d405b;
+}
+
+.list {
+  background-color: #84a98c;
+  border-radius: 3px;
+  width: 20vw;
+  height: 5vw;
+  border: 1px solid #3d405b;
+}
+
+.dropdown {
+  color: red;
+}
+
+.dropdown-item {
+  list-style: none;
+  width: 19.5vw;
+  border-radius: 3px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #3d405b;
+}
+
+.dropdown-item-hide {
+  display: none;
+}
